@@ -1,0 +1,38 @@
+@font-face {
+    font-family: myfont;
+    src: url('Niconne-Regular.ttf') format('truetype');
+}
+
+a {
+    color: rgb(240, 240, 140);
+}
+
+a:link {
+    background-color: orange;
+    font-family: myfont;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: none;
+    padding: 26px;
+    padding-bottom: 60px;
+    display: inline-block;
+    border-radius: 15px;
+    box-shadow: 0px 4px #eb9515;
+    cursor: pointer;
+    width: 180px;
+    height: 18px;
+    margin-top: 250px;
+    margin-left: 360px;
+}
+
+a:hover {
+    box-shadow: 1px 4px #d18c23;
+    color: beige;
+}
+
+a:active {
+    color: beige;
+    width: 177px;
+    height: 16px;
+    box-shadow: 0px 0px;
+}
