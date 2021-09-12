@@ -1,0 +1,31 @@
+.search {
+    background-color: lightgreen;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.user {
+    background-color: lightpink;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.map {
+    background-color: lightblue;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px;
+}
+
+i {
+    color: white;
+    margin: 100px;
+}
