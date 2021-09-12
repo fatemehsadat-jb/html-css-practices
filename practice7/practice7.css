@@ -1,0 +1,29 @@
+.second {
+    text-align: center;
+    font-size: 40px;
+}
+
+.first {
+    text-align: center;
+    font-size: 40px;
+}
+
+.second::before {
+    content: '//';
+    color: orange;
+}
+
+
+/* @include fa-icon(); */
+
+.first::after {
+    font-family: FontAwesome;
+    content: "\f0da";
+    color: orange;
+}
+
+.first::before {
+    font-family: FontAwesome;
+    content: "\f0d9";
+    color: orange;
+}
