@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+}
+
+table,
+td,
+tr,
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    margin: auto;
+    /* margin-top: 130px; */
+    width: 96%;
+    height: 400px;
+    text-align: center;
+}
+
+th {
+    height: 70px;
+    color: rgb(58, 225, 255);
+    font-size: 20px;
+}
+
+.firstcell {
+    color: red;
+    font-size: 20px;
+}
+
+tbody {
+    background-color: #323f59;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #2b3447;
+}
+
+tr:hover {
+    background-color: #4f1b4d;
+}
+
+td:hover {
+    background-color: yellow;
+    box-shadow: 3px 2px 1px #99903a;
+}
