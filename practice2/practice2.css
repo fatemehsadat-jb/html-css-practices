@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'niconne';
+    src: url('Niconne-Regular.ttf') format('truetype');
+}
+
+p {
+    font-family: niconne;
+    font-size: 180px;
+    text-align: center;
+    color: bisque;
+    text-shadow: 4px 3px red, 7px 6px orange, 10px 9px rgb(57 206 199), 13px 12px rgb(30 146 131), 16px 15px black, 20px 19px rgb(177 58 58);
+}
+
+* {
+    background-color: #d63e46;
+}
