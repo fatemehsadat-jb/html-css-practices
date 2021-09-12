@@ -1,0 +1,38 @@
+body {
+    background-color: #f5e5ab;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: bisque;
+    margin-top: 0px;
+}
+
+header {
+    background-color: rgb(216, 102, 140);
+    height: 300px;
+    margin: 3px;
+}
+
+.row {
+    height: 300px;
+    margin: 3px;
+}
+
+main {
+    background-color: orange;
+    width: 480px;
+    float: left;
+    height: 300px;
+}
+
+aside {
+    background-color: rgb(170, 238, 170);
+    width: 285px;
+    float: right;
+    height: 300px;
+}
+
+footer {
+    background-color: skyblue;
+    height: 40px;
+}
